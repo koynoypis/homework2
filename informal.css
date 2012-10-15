@@ -1,0 +1,118 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body{
+	color:#FFF;
+	font-size: large;
+	background-image:url('http://www.mediorayo.com/img.php?img=http://1.bp.blogspot.com/-6oNUB1SloQw/T04fAR17IcI/AAAAAAAAJXo/nspxZJrV8_U/s1600/Black%252B3.jpg');
+	
+}
+
+h8{
+	font-size:1.5em;
+	text-decoration:underline;
+	}
+.floatLeft {
+	width: 50%;
+	float: left;
+	padding-top:	50px;
+	font-weight: bold;
+	
+	 }
+.floatRight {
+		width: 50%;
+ 		float:	right;
+		padding-top:	100px;
+ 
+ 
+ }
+.container { overflow: hidden; }
+
+.floatLeft2 {
+	width: 50%;
+	float: left;
+	padding-top:	50px;
+	font-weight: bold;
+	 }
+	
+.floatRight2 {
+		width: 50%;
+		float:	right;
+		padding-top:	50px;		
+}
+.container2 { overflow: hidden; }
+
+h1,h2,h3,h4,h5,h6,h7{
+		display:	none;
+}
+img#img1{
+	display:	none;
+
+}
+
+p,p1,p2,p3,p4,p7,p8,p5,p6{
+	display: none;
+}
+
+#table1{
+		display:	none;
+		
+}
+#table2{
+		display:	none;
+		
+}
+#table3{
+		display:	none;
+		
+}
+#table4{
+		display:	none;
+		
+}
+
+
+div#li{
+		display:	none;
+}
+
+form{
+	marging-top:	50px;
+}
+
+@media only screen and (max-width: 520px){
+	body{
+		font-size: 0.8em;
+		
+		}
+		.container{
+			width:	80%;
+			cell-height: 80%;
+			
+		}
+		.container2{
+			width:	80%;
+			cell-height: 80%;
+			
+		}
+
+}
+
+@media only screen and (max-width: 380px){
+	body{
+		font-size: 0.8em;
+		
+		}
+		.container{
+			width:	60%;
+			cell-height: 60%;
+			
+		}
+		.container2{
+			width:	60%;
+			cell-height: 60%;
+			
+		}
+
+}

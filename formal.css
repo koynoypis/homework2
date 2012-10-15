@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	font-size: large;
+	background-color:#CCCCCC;
+	
+}
+
+img#img1{
+	display:	none;
+
+}
+
+h1,h2,h8{
+	display:	none;}
+table{
+		display:	none;
+		
+}
+
+p1{
+	font-size:1.4em;
+	
+	}
+
+h6{
+	font-size: 1.8em;
+		text-decoration:underline;
+		font-family:	Lucida Sans Unicode;
+}
+h7,h3,h4,h5{
+		font-size: 1.5em;
+		text-decoration:underline;
+		font-family:	Lucida Sans Unicode;
+}
+
+p2,p3,p4,p7,p8,p5,p6{
+	padding-left:	20px;
+	font-family:	Lucida Sans Unicode;
+}
+
+div#li{
+	padding-left:	50px;
+
+}
+
+@media only screen and (max-width: 520px){
+	body{
+		font-size: 0.9em;
+		
+		}
+
+}
+
+@media only screen and (max-width: 380px){
+	body{
+		font-size: 0.7em;
+		
+		}
+
+}

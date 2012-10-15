@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+
+.container{
+		display:	none;
+}
+
+
+.container2{
+		display:	none;
+}
+@media only screen and (min-width: 740px){
+	body{
+		font-size: 1.3em;
+		
+		}
+
+}
+
+
+@media only screen and (max-width: 570px){
+		body{
+			font-size: 0.9em;
+			
+		}
+		#table{
+			width:	80%;
+			cell-height: 80%;
+			
+		}
+		
+}
+@media only screen and (max-width: 480px){
+		body{
+				font-size: 0.8em;
+				
+			}
+			
+		#table{
+			width:	60%;
+			
+			
+		}
+		
+}
+
+@media only screen and (max-width: 320px){
+		body{
+				font-size: 0.6em;
+				
+			}
+			
+		#table{
+			width:	50%;
+			
+			
+		}
+		
+
+}
+h3,h4,h5,h6,h7,h8{
+	display:	none;}
+	
+p,p1,p2,p3,p4,p7,p8,p5,p6{
+	display: none;
+}
+
+div#li{
+		display:	none;
+}
+form{
+	marging-top:	300px;
+}
